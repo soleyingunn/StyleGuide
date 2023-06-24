@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+* {
+    margin: 0;
+}
+body {
+    margin: 30px;
+}
+section {
+    margin: 10px 0;
+    padding: 0 10px 10px 10px;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+h1, h2, h3, .paragraph p {
+    padding: 20px 0;
+}
+h1 {
+    font-family: 'Bitter';
+    font-weight: 900;
+    font-size: 26px;
+}
+h2 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 20px;
+}
+p, li {
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 16px;
+}
+.colors {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 150px 150px; 
+    column-gap: 10px;
+    row-gap: 15px;
+}
+.colorbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.colorbox.c1  {
+    background: #9c1631;
+}
+.colorbox.c2  {
+    background: #1a14d9;
+}
+.colorbox.c3  {
+    background: #917c40;
+}
+.colorbox.c4  {
+    background: #e8dbb7;
+}
+.font.f1 {
+    font-family: 'EB Garamond';
+}
+.font.f1 .bold {
+    font-weight: bold;
+}
+.font.f1 .italic {
+    font-style: italic;
+}
+.font.f2 {
+    font-family: 'Playfair Display';
+}
+.font.f2 p {
+    font-family: 'Playfair Display';
+}
+.font.f2 .bold {
+    font-weight: bold;
+}
+.font.f2 .italic {
+    font-style: italic;
+}
+.font.f3 {
+    font-family: 'Bitter';
+}
+.font.f3 p {
+    font-family: 'Bitter';
+}
+.font.f3 .bold {
+    font-weight: bold;
+}
+.font.f3 .italic {
+    font-style: italic;
+}
+.font h3 {
+    text-decoration: underline;
+}
